@@ -1,0 +1,37 @@
+From 4901e3a67e72babd69e88d41c09081780c05608a Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Piotr=20O=C5=BCarowski?= <ozarow@gmail.com>
+Date: Wed, 25 Oct 2017 13:57:08 +0200
+Subject: remove forkme logo to avoid privacy breach
+
+---
+ docs/_themes/flask/layout.html | 3 ---
+ docs/conf.py                   | 2 +-
+ 2 files changed, 1 insertion(+), 4 deletions(-)
+
+Index: parso-0.3.1/docs/_themes/flask/layout.html
+===================================================================
+--- parso-0.3.1.orig/docs/_themes/flask/layout.html
++++ parso-0.3.1/docs/_themes/flask/layout.html
+@@ -6,9 +6,6 @@
+   {% endif %}
+   <link media="only screen and (max-device-width: 480px)" href="{{
+     pathto('_static/small_flask.css', 1) }}" type= "text/css" rel="stylesheet" />
+-  <a href="https://github.com/davidhalter/parso">
+-    <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me">
+-  </a>
+ {% endblock %}
+ {%- block relbar2 %}{% endblock %}
+ {% block header %}
+Index: parso-0.3.1/docs/conf.py
+===================================================================
+--- parso-0.3.1.orig/docs/conf.py
++++ parso-0.3.1/docs/conf.py
+@@ -142,7 +142,7 @@ html_sidebars = {
+         'sidebarlogo.html',
+         'localtoc.html',
+         #'relations.html',
+-        'ghbuttons.html',
++        #'ghbuttons.html',
+         #'sourcelink.html',
+         'searchbox.html'
+     ]

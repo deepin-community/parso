@@ -1,0 +1,11 @@
+# see git-dpm(1) from git-dpm package
+4901e3a67e72babd69e88d41c09081780c05608a
+4901e3a67e72babd69e88d41c09081780c05608a
+0ad9ff7aa6d0f0fdb016ab34cffb621979ed93e8
+0ad9ff7aa6d0f0fdb016ab34cffb621979ed93e8
+parso_0.1.0.orig.tar.gz
+c22a0b97443810af0b45e24bf0424f1bd7583800
+378813
+debianTag="debian/%e%v"
+patchedTag="patched/%e%v"
+upstreamTag="upstream/%e%u"
