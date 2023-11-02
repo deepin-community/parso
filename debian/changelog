@@ -1,3 +1,14 @@
+parso (0.8.3-1) unstable; urgency=medium
+
+  [ Jochen Sprickerhof ]
+  * New upstream version 0.8.3 (Closes: #1023986)
+  * Add patch to fix unit tests in Python 3.10 (Closes: #1002353)
+  * Move to debhelper 13
+  * Use dh-sequence-*
+  * Bump policy version (no changes)
+
+ -- Piotr Ożarowski <piotr@debian.org>  Sun, 04 Dec 2022 15:37:09 +0100
+
 parso (0.8.1-1) unstable; urgency=medium
 
   * New upstream release.
