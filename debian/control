@@ -2,12 +2,16 @@ Source: parso
 Section: python
 Priority: optional
 Maintainer: Piotr Ożarowski <piotr@debian.org>
-Build-Depends: debhelper (>= 10), dh-python,
-               python3-all,
-               python3-setuptools,
-               python3-sphinx,
-               python3-pytest,
-Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 13),
+  dh-python,
+  dh-sequence-python3,
+  dh-sequence-sphinxdoc,
+  python3-all,
+  python3-setuptools,
+  python3-sphinx,
+  python3-pytest,
+Standards-Version: 4.6.1
+Rules-Requires-Root: no
 Homepage: https://github.com/davidhalter/parso
 
 Package: python3-parso
